@@ -1,0 +1,178 @@
+Boot stap Grid system:
+	Designed to:
+	1)Responsive
+	2)Mobile first
+	3)Fluid
+viewport is used to identify device width.
+
+Row class:
+	a) Each "row" will be divided into 12 columns
+	b) We can club columns with the help of "col-sm-5" & "col-sm-7".
+	c) There will be small white margin between "col-sm-5" & "col-sm-7" and we call it as gutter.
+
+Bootstap class system:
+	a) col-xs*
+	b) col-sm*
+	c) col-md*
+	d) col-lg*
+
+
+Push, Pull, Offset & Nesting columns
+	a)col-sm-pull
+	b)col-sm-push
+	c)col-sm-offset-1
+
+	Offset is used to move forward columns
+
+	*****Push vs Offset*****
+
+
+Navigation bars
+	navbar-fixed-top
+	navbar-static-top
+	navbar-inverse class to specify that the page should use the dark navigation bar
+	navbar-brand
+	
+Icon Fonts
+	Glyphicons
+	Font Awesome
+	bootstrap social
+	
+*****************************************************
+Week 2
+*****************************************************
+Buttons:
+
+1) 5 different cololrs
+	a) primary
+	b) success
+	c) info
+	d) warning
+	e) danger
+2) Classes can be applied to text, button, alert etc.
+	Ex: btn-info or btn-primary
+3) Bootstap button classes can be applied to <a> <button> or <input>
+4) btn-block to take whole row width
+5) button groups
+
+Forms:
+
+1) form-horizantal
+2) form-inline
+3) input-group
+
+input-group-addon
+
+class form-group already provides "row" class
+checkbox class
+	
+
+
+Lesson 2:
+*********
+
+Tables:
+
+class="table"
+
+Panels and Wells
+	To highlight cotent.
+	Panel classes avialable are "panel","panel-primary","panel-heading","panel-title","panel-body","dl-horizantal"
+	
+	Well classes class="well" , "well-lg", "well-sm" <blockquote>
+	
+	
+
+Lesson 3:
+*********
+Images:
+
+	classes : img-circle,img-rounded,img-circle
+
+Thumbnail & 
+Media object
+	classes media,media-left,media-
+
+
+
+
+Lesson 4:
+*********
+
+Alerts
+a) Labels
+b) Badges
+
+Alert/Error/Warning message
+Progressing bar
+	Colored, stribed
+
+
+Week 3:
+*********
+*********
+
+Lesson 1:
+
+Bootstrap JavaScript Components without writting javascript code.
+	a) data-*
+
+Lesson 2:
+	Tabs and Pills
+	
+		a) nav-tabs and nav-pills tags
+		b) nav-justified
+		c) data-toggele
+		
+		nav-tabs always horizantal manner
+		nav-pills can be horizantal or vertical
+	
+Lesson 3:
+	Hide and Seek: Collapse, Accordion, Scrollspy and Affix
+
+	"collapse in"
+	Accordion will works with panel group.
+
+	Scrollspy and Affix plug-ins
+
+Lesson 4:
+	Bootstap javascript compnents are built on top of JJquery. 
+	Jquery plug-ins can be used with data-*.
+	
+	Tooltips, popovers & Modal
+
+	Tooltips:
+		data-toggele="tooltip"
+		data-placement="top|bottom|left|right"
+		title="message string"
+		
+		
+	popovers & Modals needs to trigger by clicking button.
+	
+Lesson 5:
+	Carousel	-	allows to present slideshow
+	
+
+Week 4:
+*******
+
+Lesson 2: 
+	NodeJS and npm
+	
+	prompt node module 
+	npm-init
+
+Lesson 4:
+	Less & Saas
+	
+	Several popular prepossoser:
+		1) Less
+		2) Saas
+		3) Stylus
+		
+	Typical CSS processers features:
+		1) Variables
+		2) Nesting selector
+		3) Mixins
+		4) Function & Expressions
+		

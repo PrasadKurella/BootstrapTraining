@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'search',
+1 verbose cli   'prompt' ]
+2 info using npm@3.3.12
+3 info using node@v5.4.1
+4 silly mapToRegistry name -/all
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry uri https://registry.npmjs.org/-/all
+8 info updateIndex C:\Users\Sri\AppData\Roaming\npm-cache\registry.npmjs.org\-\all\.cache.json
+9 warn Building the local index for the first time, please be patient
+10 silly update-index fetching https://registry.npmjs.org/-/all
+11 verbose request uri https://registry.npmjs.org/-/all
+12 verbose request no auth needed
+13 info attempt registry request try #1 at 8:55:55 AM
+14 verbose request id 49998a83ab2a4163
+15 http request GET https://registry.npmjs.org/-/all
+16 info retry will retry, error on last attempt: Error: read ECONNRESET
+17 info attempt registry request try #2 at 10:01:29 AM
+18 http request GET https://registry.npmjs.org/-/all
+19 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+20 info attempt registry request try #3 at 10:03:42 AM
+21 http request GET https://registry.npmjs.org/-/all
+22 verbose stack Error: read ECONNRESET
+22 verbose stack     at exports._errnoException (util.js:856:11)
+22 verbose stack     at TLSWrap.onread (net.js:544:26)
+23 verbose cwd D:\Work\courseEra\BootstrapTrainings\NodeJSExample
+24 error Windows_NT 6.3.9600
+25 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "search" "prompt"
+26 error node v5.4.1
+27 error npm  v3.3.12
+28 error code ECONNRESET
+29 error errno ECONNRESET
+30 error syscall read
+31 error network read ECONNRESET
+31 error network This is most likely not a problem with npm itself
+31 error network and is related to network connectivity.
+31 error network In most cases you are behind a proxy or have bad network settings.
+31 error network
+31 error network If you are behind a proxy, please make sure that the
+31 error network 'proxy' config is set properly.  See: 'npm help config'
+32 verbose exit [ 1, true ]
